@@ -1,0 +1,1279 @@
+#header {
+  background-color: #e2002a;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.container.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.container.header .menu {
+  position: absolute;
+  left: 0;
+  top: 75px;
+  background-color: #333333;
+  opacity: 0;
+  transition: .2s;
+  width: 250px;
+  z-index: 100;
+}
+
+.container.header .menu.active {
+  opacity: 1;
+}
+
+.container.header .menu ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container.header .menu li {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  transition: .2s;
+}
+
+.container.header .menu li:hover {
+  background: #a0a0a0;
+}
+.container.header .menu li:hover > a {
+  color: #333333;
+}
+.container.header .menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.header .logo {
+  margin: 0;
+}
+
+.container.header .products ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 202px;
+}
+
+.container.header .products ul li {
+  height: 35px;
+  text-indent: -99999px;  
+  background: url('../images/products.png') no-repeat;
+  width: 35px;
+}
+
+.container.header .products ul .op {
+  background-position: -11px -7px;
+}
+
+.container.header .products ul .dl {
+  background-position: -52px -7px;
+}
+
+.container.header .products ul .qu {
+  background-position: -95px -7px;
+}
+
+.container.header .products ul .o {
+  background-position: -136px -7px;
+}
+
+.container.header .products ul .o {
+  background-position: -136px -7px;
+}
+
+.container.header .products ul .opi {
+  background-position: -179px -7px;
+}
+
+.container.header .products ul a {
+  display: block;
+  height: 100%;
+}
+
+#article #slide_principal img {
+  width: 100%;
+  object-fit: cover;
+  height: 650px;
+}
+
+#slide_principal {
+  position: relative;
+  width: 100%;
+}
+
+#slide_principal figure {
+  margin: 0;
+}
+
+#slide_principal .slide{
+  width: 100%;
+}
+
+#slide_principal .slideMovil { display: none; }
+
+#slide_principal .slide_info hr {
+  position: absolute;
+  top: 0;
+  background: #ffffff;
+  height: 4px;
+  border: none;
+  width: 100%;
+}
+
+#slide_principal .slide_info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 100%;
+}
+
+#slide_principal .slide_info .info {
+  position: absolute;
+  bottom: 90px;
+}
+
+#slide_principal .slide_info .info .logo {
+  background: url('./img/title_edicion.png') no-repeat;
+  background-position: -17px -5px;
+  height: 123px;
+}
+
+#slide_principal .slide_info .info p {
+  font-size: 21px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  width: 365px;
+}
+
+#posts {
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+#posts .container.posts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#posts .container.posts .post {
+  max-width: 365px;
+  margin-bottom: 70px;
+  border-top: 6px solid #e2002a;
+}
+
+#posts .container.posts .post h3 { 
+  text-align: center;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #333333;
+}
+
+#lista_empresas {
+  background-color: #e2002a;
+  position: relative;
+  overflow: hidden;
+  height: 816px;
+  width: 100%;
+}
+
+#lista_empresas .img {
+  position: absolute;
+  top: 0;
+  right: -200px;
+}
+
+#lista_empresas .container.lista {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#lista_empresas .container.lista .info {
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column;
+  width: 415px;
+}
+
+#lista_empresas .container.lista .info .logo {
+  background: url('./img/300_Icono.png') no-repeat;
+  height: 226px;
+  background-position-x: -12px;
+}
+
+#lista_empresas .container.lista .info p {
+  font-size: 21px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: justify;
+  font-weight: 300;
+  margin: 10px 0 50px 0;
+}
+
+#lista_empresas .container.lista .info button {
+  height: 44px;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background-color: #ffffff;
+  width: 328px;
+}
+
+#lista_empresas .container.lista .info a {
+  text-decoration: none;
+  color: #e2002a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 300;
+  height: 100%;
+}
+
+#lista_empresas .container.lista .info a strong {
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+#indicadores {
+  margin-top: 160px;
+}
+
+#indicadores .indicadores {
+  margin: 0 auto;
+}
+
+#indicadores .indicadores .title {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0 auto;
+  border-left: 4px solid #ffffff;
+  line-height: 50px;
+  padding-left: 5px;
+  max-width: 315px;
+}
+
+#indicadores .indicadores .title span {
+  font-weight: 300;
+}
+
+#indicadores .indicadores .info {
+  margin-top: 130px;
+}
+
+#indicadores .indicadores .info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: relative;
+}
+
+#indicadores .indicadores .info ul hr {
+  height: 2px;
+  border: none;
+  background: #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 820px;
+  margin: 0;
+}
+
+#indicadores .indicadores .info .pib h2 {
+  font-size: 300px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 220px;
+  color: #ffffff;
+}
+
+#indicadores .indicadores .info .pib p {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+#indicadores .indicadores .info .bil { position: relative; }
+
+#indicadores .indicadores .info .bil h2 {
+  font-size: 200px;
+  color: #ffffff;
+  margin: 0;
+  font-weight: 700;
+  position: relative;
+  left: -18px;
+}
+
+#indicadores .indicadores .info .bil p {
+  position: absolute;
+  bottom: 0;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  left: 55px;
+}
+
+#indicadores .indicadores .info .tasa { 
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+  position: relative;
+  top: 28px;
+}
+
+#indicadores .indicadores .info .tasa p {
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 300;
+  margin: 0;
+  position: relative;
+  left: -5px;
+}
+
+#indicadores .indicadores .info .tasa h2 {
+  font-size: 130px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  line-height: 105px;
+}
+
+#indicadores .indicadores .info .mil { 
+  position: relative;
+  top: 62px;
+}
+
+#indicadores .indicadores .info .mil p {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0;
+  text-align: right;
+}
+
+#indicadores .indicadores .info .mil h2 {
+  font-size: 130px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  line-height: 105px;
+}
+
+#indicadores .indicadores .info .mil .p_2 {
+  text-align: left;
+  position: relative;
+  top: 15px;
+}
+
+#indicadores .indicadores .info .total, #indicadores .indicadores .info .deficit  {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  width: 315px;
+}
+
+#indicadores .indicadores .info .total .icon {
+  background: url('./img/casa.png') no-repeat;
+  height: 95px;
+  display: block;
+  background-position-x: center;
+}
+
+#indicadores .indicadores .info .total p, #indicadores .indicadores .info .deficit p {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0;
+}
+
+#indicadores .indicadores .info .total h3, #indicadores .indicadores .info .deficit h3 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+#indicadores .indicadores .info .porc { 
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+#indicadores .indicadores .info .porc h2 {
+  font-size: 135px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  line-height: 115px;
+}
+
+#indicadores .indicadores .info .porc p {
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+}
+
+#tasa_ocupacion {
+  margin-top: 60px;
+  background-color: #e2002a;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+#tasa_ocupacion .container {
+  margin: 0 auto;
+}
+
+
+#tasa_ocupacion .container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+}
+
+#tasa_ocupacion .container ul .ocup {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+  width: 240px;
+}
+
+#tasa_ocupacion .container ul .ocup p, #tasa_ocupacion .container ul .dese p {
+  font-size: 21px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+#tasa_ocupacion .container ul .ocup h3, #tasa_ocupacion .container ul .dese h3 {
+  font-size: 60px;
+  color: #ffffff;
+  margin: 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+#tasa_ocupacion .container ul .dese {
+  margin-top: 20px;
+  width: 240px;
+}
+
+#tasa_ocupacion .container ul .encuesta h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  line-height: 38px;
+}
+
+#tasa_ocupacion .container ul .encuesta p {
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0;
+}
+
+#tasa_ocupacion .container ul .encuesta {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+  margin-bottom: 14px;
+}
+
+#tasa_ocupacion .container .personajes {
+  background: url('./img/personajes.png') no-repeat;
+  height: 400px;
+  position: absolute;
+  bottom: 8px;
+  right: 60px;
+  width: 500px;
+}
+
+.ver_mas.container {
+  margin-top: 40px;
+}
+
+.ver_mas {
+  margin: 0 auto;
+}
+
+.ver_mas h3 {
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+.ver_mas h3 strong {
+  font-weight: 700;
+}
+
+.ver_mas .icon {
+  background: url('./img/ver_mas.png') no-repeat;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+}
+
+#newsletter {
+  margin-top: 150px;
+}
+
+#newsletter .container {
+  margin: 0 auto;
+}
+
+#newsletter .header {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#newsletter .header h3 {
+  font-size: 60px;
+  margin: 0;
+  font-weight: 700;
+  color: #e2002a;
+}
+
+#newsletter .header p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+#newsletter hr {
+  height: 2px;
+  border: none;
+  background: #333333;
+  margin: 10px auto 20px;
+  max-width: 1000px;
+}
+
+#newsletter #form_newsletter {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 568px;
+}
+
+#newsletter #form_newsletter input::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#newsletter #form_newsletter input {
+  height: 38px;
+  border: none;
+  background: #676362;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 0 0 12px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  width: 278px;
+}
+
+#newsletter #form_newsletter #terminos {
+  max-width: 408px;
+  display: flex;
+}
+
+#newsletter #form_newsletter #terminos input {
+  height: 20px;
+  margin: 0;
+  /* background: #e2002a; */
+  width: 20px;
+}
+
+#newsletter #form_newsletter #terminos label {
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+#newsletter #form_newsletter .btn_enviar {
+  height: 38px;
+  border: none;
+  background: #333333;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0;
+  cursor: pointer;
+  width: 142px;
+}
+
+#paute {
+  margin-top: 235px;
+  height: 1200px;
+  background-color: #e2002a;
+  display: flex;
+  align-items: center;
+}
+
+#paute .paute {
+  max-width: 890px;
+  margin: 0 auto;
+}
+
+#paute .paute h3 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  line-height: 58px;
+  padding-left: 5px;
+  border-left: 2px solid #ffffff;
+}
+
+#paute .paute h3 aside {
+  font-size: 60px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+#paute .paute .formato {
+  margin-top: 70px;
+}
+
+#paute .paute #form_formato {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 115px;
+}
+
+#paute .paute #form_formato input {
+  height: 45px;
+  border: none;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  background: transparent;
+  margin-bottom: 100px;
+  padding: 0 0 0 12px;
+  box-sizing: border-box;
+  color: #ffffff;
+  outline: none;
+  width: 328px;
+}
+
+#paute .paute #form_formato input::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#paute .paute #form_formato .terminos {
+  display: flex;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 10px;
+  width: 328px;
+}
+
+#paute .paute #form_formato .terminos input {
+  height: 20px;
+  margin: 0;
+  /* background: #e2002a; */
+  width: 20px;
+}
+
+#paute .paute #form_formato .terminos label {
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 5px;
+  color: #ffffff;
+  width: 275px;
+}
+
+#paute .paute #form_formato .btn_enviar {
+  height: 45px;
+  background: #ffffff;
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  width: 328px;
+}
+
+#portadas {
+  background: #353535;
+  padding: 50px 0;
+  margin: 80px 0;
+}
+
+#portadas h3, #portadas h2 {
+  margin: 50px auto;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+#portadas .button {
+  margin: 0 auto;
+}
+
+#portadas .button button {
+  margin: 0 auto;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0;
+}
+
+#portadas .button a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  height: 100%;
+}
+
+#portadas img {
+  width: 100%;
+}
+
+#footer {
+  margin-top: 160px;
+}
+
+#footer .container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer .red {
+  display: flex;
+  align-items: center;
+}
+
+#footer .redes {
+  margin: 0 auto;
+  border-top: 2px solid #ffffff;
+  width: 1000px;
+}
+
+#footer .redes ul {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  background-color: #333333;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -1px;
+  color: #ffffff;
+  width: 262px;
+}
+
+#footer .redes ul li {
+  text-indent: -99999px;
+  height: 30px;
+  width: 30px;
+}
+
+#footer .redes ul .face {
+  background: url('./img/redes.png') no-repeat;
+  background-position: -6px -5px;
+}
+
+#footer .redes ul .twit {
+  background: url('./img/redes.png') no-repeat;
+  background-position: -39px -5px;
+}
+
+#footer .redes ul .inst {
+  background: url('./img/redes.png') no-repeat;
+  background-position: -70px -5px;
+}
+
+#footer .redes ul .yout {
+  background: url('./img/redes.png') no-repeat;
+  background-position: -104px -5px;
+}
+
+#footer .redes ul aside {
+  font-size: 21px;
+  font-weight: 300;
+  margin-right: 8px;
+}
+
+#footer .redes ul a {
+  height: 100%;
+  display: block;
+}
+
+#footer .copy {
+  font-size: 18px;
+  font-weight: 300;
+  color: #333333;
+  text-align: center;
+  margin: 30px 0;
+}
+
+#tasa_ocupacion .ocupacionMovil, #paute .paute .formatoMovil, #portadas .portadaMovil { display: none; }
+
+#content {
+  margin: 0 auto;
+}
+
+#content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  border-left: 6px solid #e2002a;
+  color: #e2002a;
+  padding: 20px;
+}
+
+#content .body {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 50px 0;
+}
+
+#content .body img {
+  border-top: 6px solid #e2002a;
+  background: #e2002a;
+  height: auto;
+  width: 100%;
+}
+
+#content .body p {
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+  #header{
+    width: 100%;
+    height: auto;
+    padding: 0 0 20px;
+  }
+
+  .container.header {
+    flex-direction: column;
+  }
+
+  #header .hamburger {
+    align-self: flex-start;
+    z-index: 101;
+  }
+
+  .container.header .logo img {
+    width: 100%;
+  }
+
+  .container.header .menu {
+    top: 50px;
+  }
+
+  #content {
+    width: 96%;
+  }
+
+  #slide_principal .slide_info hr {
+    margin-top: 30px;
+  }
+
+  #slide_principal .slideMovil { 
+    display: block;
+    width: 100%;
+  }
+  #slide_principal .slide { 
+    display: none;
+  }
+
+  #slide_principal .slide_info .info {
+    left: 0;
+    right: 0;
+    max-width: 300px;
+    margin: 0 auto;
+    bottom: 50px;
+  }
+
+  #slide_principal .slide_info .info p {
+    width: 300px;
+  }
+
+  #posts .container.posts {
+    justify-content: center;
+  }
+
+  #lista_empresas .img {
+    display: none;
+  }
+
+  #indicadores .indicadores .info ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #indicadores .indicadores .info .tasa, #indicadores .indicadores .info .mil, #indicadores .indicadores .info .mil .p_2 {
+    position: static;
+  }
+
+  #indicadores .indicadores .info ul li {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+
+  #indicadores .indicadores .info ul li:nth-of-type(3) {
+    border: none;
+  }
+
+  #indicadores .indicadores .info .porc {
+    border: none;
+    padding: 0;
+  }
+
+  #indicadores .indicadores .info .tasa {
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #indicadores .indicadores .info .pib h2 {
+    font-size: 191px;
+  }
+
+  #indicadores .indicadores .info .pib p, #indicadores .indicadores .info .bil p {
+    font-size: 21px;
+  }
+
+  #indicadores .indicadores .info .bil h2 {
+    font-size: 120px;
+  }
+
+  #indicadores .indicadores .info .bil p{
+    left: 30px;
+  }
+
+  #indicadores .indicadores .info .tasa p {
+    font-size: 24px;
+  }
+
+  #indicadores .indicadores .info .tasa h2 {
+    font-size: 89px;
+  }
+
+  #indicadores .indicadores .info .tasa p:last-child {
+    top: -26px;
+    left: -70px;
+  }
+
+  #indicadores .indicadores .info .mil p, #indicadores .indicadores .info .mil p {
+    font-size: 24px;
+  }
+
+  #indicadores .indicadores .info .mil h2 {
+    font-size: 89px;
+  }
+
+  #indicadores .indicadores .info .total p, #indicadores .indicadores .info .deficit p {
+    font-size: 21px;
+  }
+
+  #indicadores .indicadores .info {
+    margin-top: 50px;
+  }
+
+  #indicadores .indicadores .info ul hr {
+    width: 100%;
+  }
+
+  #lista_empresas .container.lista {
+    justify-content: center;
+  }
+
+  #lista_empresas .container.lista .info {
+    max-width: 320px;
+    margin: 0;
+  }
+
+  #lista_empresas .container.lista .info button {
+    width: 100%;
+  }
+
+  #tasa_ocupacion .desktop { display: none; }
+  #tasa_ocupacion .ocupacionMovil { display: block; }
+
+  #tasa_ocupacion .ocupacionMovil ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #tasa_ocupacion .ocupacionMovil ul .ocup {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    width: 240px;
+  }
+  
+  #tasa_ocupacion .ocupacionMovil ul .ocup p, #tasa_ocupacion .ocupacionMovil ul .dese p {
+    font-size: 21px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+  }
+  
+  #tasa_ocupacion .ocupacionMovil ul .ocup h3, #tasa_ocupacion .ocupacionMovil ul .dese h3 {
+    font-size: 60px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  #tasa_ocupacion .ocupacionMovil ul .dese {
+    margin-top: 20px;
+    width: 240px;
+  }
+  
+  #tasa_ocupacion .ocupacionMovil ul .encuesta h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff;
+    line-height: 38px;
+    text-align: center;
+  }
+  
+  #tasa_ocupacion .ocupacionMovil ul .encuesta p {
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+  }
+  
+  #tasa_ocupacion .ocupacionMovil ul .encuesta {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    margin-bottom: 14px;
+  }
+  
+  #tasa_ocupacion .ocupacionMovil .personajes {
+    background: url('./img/personajes.png') no-repeat;
+    height: 245px;
+    width: 320px;
+    background-size: 100%;
+    margin: 20px 0;
+  }
+
+  #tasa_ocupacion {
+    height: auto;
+    display: block;
+    padding: 40px 0;
+  }
+
+  #newsletter .header h3 {
+    font-size: 45px;
+  }
+
+  #newsletter .header p {
+    font-size: 18px;
+  }
+
+  #newsletter #form_newsletter {
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+  }
+
+  #newsletter #form_newsletter input, #newsletter #form_newsletter .btn_enviar {
+    width: 100%;
+  }
+
+  #newsletter #form_newsletter #terminos {
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  #newsletter #form_newsletter #terminos input {
+    height: 36px;
+    width: 30px;
+  }
+
+  #paute {
+    height: auto;
+    padding: 50px 0;
+    margin-top: 150px;
+  }
+
+  #paute .paute {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #paute .paute h3 {
+    font-size: 45px;
+    width: 300px;
+  }
+
+  #paute .paute h3 aside {
+    font-size: 45px;
+  }
+
+  #paute .paute .formatoMovil { 
+    margin-top: 40px;
+    display: block;
+  }
+
+  #paute .paute .formato {
+    display: none;
+  }
+
+  #paute .paute #form_formato {
+    justify-content: center;
+  }
+
+  #paute .paute #form_formato input {
+    margin-bottom: 50px;
+  }
+
+  #portadas .portada {
+    display: none;
+  }
+
+  #portadas .portadaMovil {
+    display: block;
+  }
+
+  #footer .redes {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 380px) {
+  #posts .container.posts .post img {
+    width: 100%;
+  }
+
+  #posts .container.posts .post h3 {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  #lista_empresas .container.lista .info {
+    max-width: 300px;
+  }
+
+  #lista_empresas .container.lista .info .logo {
+    background-size: 100%;
+    background-position: 50%;
+  }
+
+  #indicadores .indicadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #indicadores .indicadores .title {
+    font-size: 45px;
+    max-width: 250px;
+  }
+
+  #paute .paute {
+    width: 100%;
+  }
+
+  #paute .paute #form_formato {
+    width: 96%;
+  }
+
+  #paute .paute .formatoMovil {
+    width: 100%;
+  }
+
+  #indicadores .indicadores .info .total, #indicadores .indicadores .info .deficit {
+    width: 100%;
+  }
+
+  #newsletter #form_newsletter {
+    width: 96%;
+  }
+
+  #paute .paute #form_formato .terminos {
+    display: none;
+  }
+
+  #tasa_ocupacion .ocupacionMovil .personajes {
+    width: 100%;
+  }
+}
