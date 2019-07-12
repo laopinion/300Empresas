@@ -16,15 +16,19 @@
  * - $confirmation_message: The confirmation message input by the webform
  *   author.
  * - $sid: The unique submission ID of this submission.
+ * - $url: The URL of the form (or for in-block confirmations, the same page).
  */
 ?>
 <?php print $progressbar; ?>
 
 <div class="webform-confirmation">
   <?php if ($confirmation_message): ?>
-    <?php print $confirmation_message ?></br><?php print $sid ?>
+    <?php print $confirmation_message ?>
   <?php else: ?>
     <p><?php print t('Thank you, your submission has been received.'); ?></p>
   <?php endif; ?>
 </div>
 
+<div class="links">
+  <a href="<?php print $url; ?>"><?php print t('Go back to the form'); ?></a>
+</div>

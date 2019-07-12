@@ -36,7 +36,7 @@
 
   <meta name="description" content="Tu portal de 300 empresas"/>
   <meta name="keywords" content="empresas, negocios, competitividad, economía, energía, agricultura, mercado laboral, vehículos, indrustria, vivienda, indicadores, aseguradoras, empleos, e-commerce, textil y confecciones, comercio exterior, exportaciones, empresarios, liderazgo, establecimientos financieros, administración" />
-  <meta name="author" content="300empresas.laopinion.com.co" />
+  <meta name="author" content="Diario La Opinión" />
   <link rel="canonical" href="https://300empresas.laopinion.com.co">
   <link rel="image_src" href="https://300empresas.laopinion.com.co/sites/default/themes/300empresas/images/compartir.jpg" />
 
