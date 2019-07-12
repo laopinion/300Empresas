@@ -1,9 +1,9 @@
 <footer id="footer">
   <div class="container">
-    <img src="./img/logo_footer.png" alt="logo" class="logo">
+    <img src="<?php print base_path(); ?>sites/default/themes/300empresas/images/logo_footer.png" alt="logo" class="logo">
     <div class="red">
       <p>Red de portales</p>
-      <img src="./img/op.png" alt="op">
+      <img src="<?php print base_path(); ?>sites/default/themes/300empresas/images/op.png" alt="op">
     </div>
     <div class="redes">
       <ul>

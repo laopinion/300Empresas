@@ -843,22 +843,22 @@ body {
 }
 
 #footer .redes ul .face {
-  background: url('./img/redes.png') no-repeat;
+  background: url('../images/redes.png') no-repeat;
   background-position: -6px -5px;
 }
 
 #footer .redes ul .twit {
-  background: url('./img/redes.png') no-repeat;
+  background: url('../images/redes.png') no-repeat;
   background-position: -39px -5px;
 }
 
 #footer .redes ul .inst {
-  background: url('./img/redes.png') no-repeat;
+  background: url('../images/redes.png') no-repeat;
   background-position: -70px -5px;
 }
 
 #footer .redes ul .yout {
-  background: url('./img/redes.png') no-repeat;
+  background: url('../images/redes.png') no-repeat;
   background-position: -104px -5px;
 }
 
@@ -965,7 +965,7 @@ body {
     width: 300px;
   }
 
-  #posts .container.posts {
+  #posts .view-content {
     justify-content: center;
   }
 
@@ -1225,11 +1225,11 @@ body {
 
 
 @media screen and (max-width: 380px) {
-  #posts .container.posts .post img {
+  #posts .view-content .post img {
     width: 100%;
   }
 
-  #posts .container.posts .post h3 {
+  #posts .view-content .post h3 {
     max-width: 300px;
     margin: 0 auto;
   }
