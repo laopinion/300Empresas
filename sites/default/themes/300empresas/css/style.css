@@ -826,6 +826,172 @@ body {
   display: block;
 } */
 
+#Ediciones {
+  margin: 80px auto;
+  max-width: 1000px;
+}
+
+#Ediciones h3 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 2px solid #e2002a;
+  color: #e2002a;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  padding: 0 30px 15px;
+  width: 70%;
+}
+
+#Ediciones ul {
+  margin: 50px 0 150px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  justify-content: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 80px;
+}
+
+#Ediciones li {
+  border-top: 6px solid #e2002a;
+}
+
+#Ediciones li img {
+  margin-bottom: 20px;
+}
+
+#Ediciones li .download {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333333;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 200px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#Ediciones #formulario {
+  margin-bottom: 180px;
+}
+
+#Ediciones #formulario h2 {
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  color: #bc2024;
+  margin: 0 0 70px;
+}
+
+#Ediciones .formulario label {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#Ediciones .formulario input,
+#Ediciones .formulario select {
+  border: none;
+  height: 56px;
+  background: #eeeef0;
+  padding: 5px 5px 5px 10px;
+  outline: none;
+  color: #333333;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#Ediciones .formulario .terminos {
+  grid-column: 2/4;
+  justify-self: center;
+  flex-direction: initial !important;
+}
+
+#Ediciones .formulario .terminos label {
+  font-size: 16px;
+}
+
+#Ediciones .formulario .terminos input {
+  width: 32px;
+  margin: 0 10px;
+}
+
+#Ediciones .formulario .terminos a {
+  text-decoration: none;
+  color: #bc2024;
+}
+
+#Ediciones .formulario .terminos a:hover {
+  text-decoration: underline;
+}
+
+#Ediciones .formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 30px;
+  grid-column-gap: 20px;
+}
+#Ediciones .formulario .form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#Ediciones .form-actions {
+  grid-column: 1/4;
+  justify-self: center;
+  overflow: hidden;
+  outline: 0;
+}
+
+#Ediciones .form-actions .submit {
+  border: none;
+  width: 295px;
+  height: 56px;
+  /* padding: 15px 40px; */
+  border-radius: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background: #bc2024;
+  cursor: pointer;
+  transition: 0.5s;
+  outline: 0;
+}
+
+#Ediciones .form-actions:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+#Ediciones .waves {
+  position: relative;
+  transition: all 0.3s ease-out;
+}
+
+#Ediciones .waves-ripple {
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  transform: scale(0);
+}
+
+#Ediciones .waves-animate {
+  animation: waves_ripple-animate 0.5s linear;
+}
+
+@keyframes waves_ripple-animate {
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
+
 #footer {
   margin-top: 160px;
 }

@@ -13,3 +13,4 @@ node_modules
 spyc/
 
 mailchimpkey.tpl.php
+signature.php
