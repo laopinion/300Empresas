@@ -170,8 +170,9 @@ body {
 
 #slide_principal .slide_info .info .logo {
   background: url('../images/title_edicion.png') no-repeat;
-  background-position: -17px -5px;
+  background-position: -25px -32px;
   height: 123px;
+  background-size: 280px;
 }
 
 #slide_principal .slide_info .info p {
@@ -211,6 +212,10 @@ body {
 #posts .view-content .post a {
   text-decoration: none;
   color: #333333;
+}
+
+#posts .view-content .post a:hover {
+  text-decoration: underline;
 }
 
 #lista_empresas {
@@ -799,6 +804,28 @@ body {
   width: 100%;
 }
 
+/* #portadas .grid__portadas {
+  position: relative;
+}
+#portadas .grid__portadas ul {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  height: 330px;
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+#portadas .grid__portadas li {
+  width: 265px;
+}
+#portadas .grid__portadas li a {
+  height: 100%;
+  display: block;
+} */
+
 #footer {
   margin-top: 160px;
 }
@@ -817,7 +844,7 @@ body {
 
 #footer .redes {
   margin: 0 auto;
-  border-top: 2px solid #ffffff;
+  border-top: 2px solid #e2002a;
   width: 1000px;
 }
 

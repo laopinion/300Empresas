@@ -54,11 +54,13 @@
 
   <section id="portadas">
     <h3 class="container">Las mejores empresas de norte de santander en su octava edición</h3>
-    <img class="portada" src="<?php print base_path(); ?>sites/default/themes/300empresas/images/portadas.png" alt="portadas">
+    <a href="/ediciones-pdf">
+      <img class="portada" src="<?php print base_path(); ?>sites/default/themes/300empresas/images/portadas.png" alt="portadas">
+    </a>
     <img class="portadaMovil" src="<?php print base_path(); ?>sites/default/themes/300empresas/images/portadasMovil.png" alt="portadas">
     <h2 class="container">Obtenga las ediciones anteriores de su revista las mejores empresas en pdf</h2>
     <div class="container button">
-      <button><a href="/">Clic Aquí</a></button>
+      <button><a href="/ediciones-pdf">Clic Aquí</a></button>
     </div>
   </section>
 
