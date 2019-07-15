@@ -1130,6 +1130,24 @@ body {
     top: 50px;
   }
 
+  #Ediciones #formulario {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  #Ediciones ul {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #Ediciones .formulario {
+    grid-template-columns: 1fr;
+  }
+
+  #Ediciones .formulario .terminos, #Ediciones .form-actions {
+    grid-column: auto;
+  }
+
   #content {
     width: 96%;
   }
