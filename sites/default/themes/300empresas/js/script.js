@@ -1,5 +1,6 @@
 const hamburger = document.querySelector('#header .hamburger');
 const menu = document.querySelector('#header .menu');
+const menuOption = document.querySelector('#header .menu li');
 
 
 function hamburgerActive() {
@@ -13,6 +14,13 @@ function hamburgerActive() {
 }
 
 hamburger.addEventListener("click", hamburgerActive);
+
+menuOption.addEventListener("click", function () {
+  if (hamburger.classList.contains('is-active')) {
+    hamburger.classList.remove('is-active')
+    menu.classList.remove('active')
+  }
+})
 
 
 $(document).ready(function() {
