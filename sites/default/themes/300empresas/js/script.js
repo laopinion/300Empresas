@@ -1,5 +1,7 @@
 const hamburger = document.querySelector('#header .hamburger');
 const menu = document.querySelector('#header .menu');
+// const menuOption = document.querySelector('#header .menu li');
+const menuOption = document.querySelectorAll('#header .menu li');
 
 
 function hamburgerActive() {
@@ -13,6 +15,25 @@ function hamburgerActive() {
 }
 
 hamburger.addEventListener("click", hamburgerActive);
+
+menuOption.forEach(function(el) {
+  // console.log(el);
+  // console.log(el.querySelector('a').href.split('#')[1]);
+  const href = el.querySelector('a').href.split('#')[1];
+  el.addEventListener("click", function () {
+    if (hamburger.classList.contains('is-active')) {
+      hamburger.classList.remove('is-active')
+      menu.classList.remove('active')
+    }
+    $("html, body").animate(
+      {
+        scrollTop: $(`#${href}`).offset().top
+      },
+      2000
+    );
+  })
+});
+
 
 
 $(document).ready(function() {
@@ -258,7 +279,9 @@ $(document).ready(function() {
   }
 
   const package_option = document.getElementById("package_option");
-  package_option.addEventListener("change", changePackage.bind(package_option))
+  if (package_option) {
+    package_option.addEventListener("change", changePackage.bind(package_option))
+  }
 
   function  cleanOptions() {
     const data = [1, 2, 3, 4, 5, 6, 7, 8]
@@ -319,5 +342,8 @@ $(document).ready(function() {
     // console.log($ripple);
   }
 
-  $waves.addEventListener("click", wavesRipple);
+  if ($waves) {
+    $waves.addEventListener("click", wavesRipple);
+  }
+
 });
