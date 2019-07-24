@@ -1,7 +1,7 @@
 <section id="Home">
   <section id="slide_principal">
     <figure>
-      <img class="slide" src="<?php print base_path(); ?>sites/default/themes/300empresas/images/slide.png" alt="slide">
+      <img class="slide" src="<?php print base_path(); ?>sites/default/themes/300empresas/images/slide1.png" alt="slide">
       <img class="slideMovil" src="<?php print base_path(); ?>sites/default/themes/300empresas/images/slideMovil.png" alt="slide">
     </figure>
     <div class="container slide_info">
@@ -9,7 +9,7 @@
       <div class="info">
         <div class="logo"></div>
         <p>Una  publicación especializada en economía y negocios, que trae cada año el listado de las mejores empresas con sus 
-            ingresos y utilidades del 2017</p>
+            ingresos y utilidades del 2019</p>
       </div>
     </div>
   </section>
