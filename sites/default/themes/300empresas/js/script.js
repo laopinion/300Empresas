@@ -35,6 +35,59 @@ menuOption.forEach(function(el) {
 });
 
 
+const path = window.location.origin;
+
+/* Mailchimp Form */
+const $form = document.getElementById('form_newsletter');
+// console.info($form);
+
+const syncMailchimp = function (event) {
+  event.preventDefault();
+  // console.log('hola mundo');
+  const data = new FormData($form);
+  const email = data.get('email');
+  const fname = data.get('fname');
+  const lname = data.get('lname');
+  const phone = data.get('phone');
+  const terminos = data.get('terminos');
+  let url;
+
+  if (path == 'http://docker.test'){
+    url = 'http://docker.test/sites/default/themes/300empresas/mailchimpApi.php';
+  } else {
+    url = 'http://mejoresempresas.laopinion.com.co/sites/default/themes/300empresas/mailchimpApi.php';
+  }
+
+  console.log(url)
+
+  $.post(url, { 
+    email: email, 
+    fname: fname, 
+    lname: lname, 
+    phone: phone, 
+    terminos: terminos 
+  }, function (data, status) {
+    console.log(data);
+    console.log(status);
+    if (status == 'success') {
+      // $('#message').show();
+      if (data == 200) {
+        $('#form_newsletter').hide();
+        $('#newsletter').html('<h3>Gracias por participar pronto informaremos el ganador.</h3>');
+      } else {
+        $('#newsletter').html('<h3>Algo salio mal!</h3>');
+      }
+    } else {
+      // $('#message').show();
+      $('#newsletter').html('<h3>Algo salio mal!</h3>');
+    }
+  });
+}
+
+if ($form != null) {
+  $form.addEventListener('submit', syncMailchimp);
+} 
+
 
 $(document).ready(function() {
   $(".submit").click(function() {

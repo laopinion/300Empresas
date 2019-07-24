@@ -41,10 +41,10 @@
       </div>
       <hr>
       <form id="form_newsletter">
-        <input type="text" placeholder="NOMBRE Y APELLIDO">
-        <input type="email" placeholder="CORREO ELÉCTRONICO" required>
+        <input type="text" name="fname" placeholder="NOMBRE Y APELLIDO">
+        <input type="email" name="email" placeholder="CORREO ELÉCTRONICO" required>
         <div id="terminos">
-          <input type="checkbox" required>
+          <input type="checkbox" name="terminos" value="Acepta terminos y condiciones" required>
           <label for="terminos">Acepto los términos y condiciones y he leído la política de tratamiento de los datos personales</label>
         </div>
         <button class="btn_enviar">Enviar</button>

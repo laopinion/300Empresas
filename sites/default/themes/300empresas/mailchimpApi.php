@@ -29,8 +29,7 @@
         'merge_fields'  => [
             'FNAME'     => $data['firstname'],
             'LNAME'     => $data['lastname'],
-            'TERMINOS'     => $data['terminos'],
-            'CUMPLE'     => '',
+            'TERMINOS'     => $data['terminos']
         ]
     ]);
 

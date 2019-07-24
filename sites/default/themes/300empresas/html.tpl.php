@@ -37,15 +37,15 @@
   <meta name="description" content="Tu portal de 300 empresas"/>
   <meta name="keywords" content="empresas, negocios, competitividad, economía, energía, agricultura, mercado laboral, vehículos, indrustria, vivienda, indicadores, aseguradoras, empleos, e-commerce, textil y confecciones, comercio exterior, exportaciones, empresarios, liderazgo, establecimientos financieros, administración" />
   <meta name="author" content="Diario La Opinión" />
-  <link rel="canonical" href="https://300empresas.laopinion.com.co">
-  <link rel="image_src" href="https://300empresas.laopinion.com.co/sites/default/themes/300empresas/images/compartir.jpg" />
+  <link rel="canonical" href="https://mejoresempresas.laopinion.com.co">
+  <link rel="image_src" href="https://mejoresempresas.laopinion.com.co/sites/default/themes/300empresas/images/compartir.jpg" />
 
 
   <meta name="twitter:widgets:csp" content="on">
-  <meta name="twitter:image" content="https://300empresas.laopinion.com.co/sites/default/themes/300empresas/images/compartir.jpg" />
+  <meta name="twitter:image" content="https://mejoresempresas.laopinion.com.co/sites/default/themes/300empresas/images/compartir.jpg" />
   
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://300empresas.laopinion.com.co/" />
+  <meta property="og:url" content="https://mejoresempresas.laopinion.com.co/" />
   <meta property="og:description" content="Las mejores empresas de Norte de Santander" />
   <meta name="author" content="Diario La Opinión"/>
   <meta name="google" content="notranslate" />
@@ -56,7 +56,7 @@
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:description" content="Las mejores empresas de Norte de Santander">
-  <meta name="twitter:url" content="https://300empresas.laopinion.com.co"> 
+  <meta name="twitter:url" content="https://mejoresempresas.laopinion.com.co"> 
   <meta name="twitter:site" content="@laopinioncucuta" />
   <meta name="twitter:title" content="Las mejores empresas de Norte de Santander">
   <meta name="twitter:creator" content="@laopinioncucuta"> 
