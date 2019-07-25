@@ -114,7 +114,7 @@ $(document).ready(function() {
       true
     );
     $("#amount").val("12000");
-    $("#description").val("Edición 1");
+    $("#description").val("2012");
     signature("12000");
   });
 
@@ -135,7 +135,7 @@ $(document).ready(function() {
       true
     );
     $("#amount").val("18000");
-    $("#description").val("Edición 2");
+    $("#description").val("2013");
     signature("18000");
   });
 
@@ -156,7 +156,7 @@ $(document).ready(function() {
       true
     );
     $("#amount").val("41000");
-    $("#description").val("Edición 3");
+    $("#description").val("2014");
     signature("41000");
   });
 
@@ -177,7 +177,7 @@ $(document).ready(function() {
       true
     );
     $("#amount").val("65000");
-    $("#description").val("Edición 4");
+    $("#description").val("2015");
     signature("65000");
   });
 
@@ -198,9 +198,7 @@ $(document).ready(function() {
       true
     );
     $("#amount").val("22000");
-    $("#description").val(
-      "Edición 5"
-    );
+    $("#description").val("2016");
     signature("22000");
   });
 
@@ -222,7 +220,7 @@ $(document).ready(function() {
       true
     );
     $("#amount").val("24000");
-    $("#description").val("Edición 6");
+    $("#description").val("2017");
     signature("24000");
   });
 
@@ -243,7 +241,7 @@ $(document).ready(function() {
       true
     );
     $("#amount").val("36000");
-    $("#description").val("Edición 7");
+    $("#description").val("2018");
     signature("36000");
   });
 
@@ -264,7 +262,7 @@ $(document).ready(function() {
       true
     );
     $("#amount").val("48000");
-    $("#description").val("Edición 8");
+    $("#description").val("2019");
     signature("48000");
   });
 
@@ -296,37 +294,37 @@ $(document).ready(function() {
     // console.log(option)
     if (option == 1) {
       $("#amount").val("12000");
-      $("#description").val("Edición 1");
+      $("#description").val("2012");
       signature("12000");
     } else if (option == 2) {
       $("#amount").val("18000");
-      $("#description").val("Edición 2");
+      $("#description").val("2013");
       signature("18000");
     } else if (option == 3) {
       $("#amount").val("41000");
-      $("#description").val("Edición 3");
+      $("#description").val("2014");
       signature("41000");
     } else if (option == 4) {
       $("#amount").val("65000");
-      $("#description").val("Edición 4");
+      $("#description").val("2015");
       signature("65000");
     } else if (option == 5) {
       $("#amount").val("22000");
       $("#description").val(
-        "Edición 5"
+        "2016"
       );
       signature("22000");
     } else if (option == 6) {
       $("#amount").val("24000");
-      $("#description").val("Edición 6");
+      $("#description").val("2017");
       signature("24000");
     } else if (option == 7) {
       $("#amount").val("36000");
-      $("#description").val("Edición 7");
+      $("#description").val("2018");
       signature("36000");
     } else if (option == 8) {
       $("#amount").val("48000");
-      $("#description").val("Edición 8");
+      $("#description").val("2019");
       signature("48000");
     } 
   }
