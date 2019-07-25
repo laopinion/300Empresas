@@ -8,8 +8,7 @@
       <hr>
       <div class="info">
         <div class="logo"></div>
-        <p>Una  publicación especializada en economía y negocios, que trae cada año el listado de las mejores empresas con sus 
-            ingresos y utilidades del 2019</p>
+        <p>En esta edición encontrará información sobre la industria de la moda, el calzado, emprendimientos y la economía regional</p>
       </div>
     </div>
   </section>
@@ -24,7 +23,7 @@
     <div class="container lista">
       <div class="info">
         <div class="logo"></div>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's since thter tofscrambook.</p>
+        <p>Aquí encontrará el listado de las empresas más productivas y destacadas de la región</p>
         <button><a href="">Vea la <strong>lista</strong></a></button>
       </div>
     </div>
