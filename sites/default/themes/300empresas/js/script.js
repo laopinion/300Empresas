@@ -75,11 +75,11 @@ const syncMailchimp = function (event) {
         $('#form_newsletter').hide();
         $('#newsletter').html('<h3>Gracias por participar pronto informaremos el ganador.</h3>');
       } else {
-        $('#newsletter').html('<h3>Algo salio mal!</h3>');
+        $('#newsletter').html('<h3 class=message>Algo salio mal!</h3>');
       }
     } else {
       // $('#message').show();
-      $('#newsletter').html('<h3>Algo salio mal!</h3>');
+      $('#newsletter').html('<h3 class=message>Algo salio mal!</h3>');
     }
   });
 }
