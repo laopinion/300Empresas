@@ -578,7 +578,7 @@ body {
   margin-top: 150px;
 }
 
-#newsletter h3 {
+#newsletter .message {
   max-width: 300px;
   margin: 0 auto;
   text-align: center;
@@ -1184,7 +1184,7 @@ body {
   }
 
   #posts .view-content {
-    justify-content: center;
+    justify-content: space-around;
   }
 
   #lista_empresas .img {
@@ -1444,6 +1444,7 @@ body {
 
 @media screen and (max-width: 380px) {
   #posts .view-content .post img {
+    height: auto;
     width: 100%;
   }
 
